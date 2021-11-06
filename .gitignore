@@ -1,2 +1,4 @@
 /.idea/
 /out/
+/cpp/cmake-build-debug/
+/sig/
