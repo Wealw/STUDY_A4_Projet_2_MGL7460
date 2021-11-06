@@ -5,7 +5,7 @@ require 'date'
 
 
 class Uptime
-  public def convert_sec(sec)
+  def convert_sec(sec)
     number_of_day = sec / 86_400
     number_of_hour = (sec - number_of_day * 86_400) / 3600
     number_of_min = (sec - number_of_day * 86_400 - number_of_hour * 3600) / 60
