@@ -20,7 +20,7 @@ int main() {
             std::cout << "It appear that the uptime_file is either not there or empty";
         }
         uptime_file.close();
-    } catch (std::exception exception) {
+    } catch (std::exception &exception) {
         std::cout << "There was an error when reading your update file";
     }
     return 0;
